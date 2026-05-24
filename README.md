@@ -1,4 +1,4 @@
-# BloodBankManagementSystem.com
+# BloodBank
     IIHS College Project
     Blood Bank Management System
 
@@ -6,8 +6,8 @@ BCA Project: Blood Bank Management System
 
 Team Members:
 
-1.  Vishal
-2.  Gautam
+1.  Rajni kumari
+2.  Shivani Rawat
 3.  Khushi
 
 
