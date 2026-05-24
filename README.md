@@ -13,9 +13,9 @@ Team Members:
 Introduction: The Blood Bank Management System (BBMS) is a software solution designed to help manage and streamline the processes involved in the donation, storage, and distribution of blood in a blood bank. This system ensures the efficient management of blood inventory, tracking of blood donations, and effective allocation of blood to patients in need. With the increase in demand for blood during emergencies and surgeries, this system plays a crucial role in saving lives.
 
 **Project Title:**
-Blood Bank Management System
+Blood Bank 
 
-**Live Link:** https://blookbanksystem32.netlify.app/
+**Live Link:** 
 
 **Tech Stack used**: HTML5, CSS3, JavaScript
 
