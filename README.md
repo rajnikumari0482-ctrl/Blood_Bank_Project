@@ -1,6 +1,6 @@
 # BloodBank
     IIHS College Project
-    Blood Bank Management System
+    Blood Bank
 
 BCA Project: Blood Bank
 
