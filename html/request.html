@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BloodBankManagementSystem.com</title>
+        <link rel="stylesheet" href="../css/style.css">
+         <!-- Font Awesome CDN  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+</head>
+
+<body>
+    <div class="banner" id="request-banner">
+        <div class="navbar">
+            
+            <ul>
+                <li><a href="./../index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="donate.html">Donate blood</a></li>
+                <!-- <li><a href="request.html">Request blood</a></li> -->
+            </ul>
+        </div>
+
+
+        <div class="content" style="top: 40%;">
+            <h1>Request Blood</h1>
+        </div>
+    </div>
+
+    <div class="request-container">
+        <div class="left-image">
+            <img src="./../images/request.png" alt="" srcset="">
+        </div>
+        <div class="request-form">
+            <form action="" id="request-details">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autocomplete="name" required placeholder="Name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="edmail" name="email" autocomplete="email" required placeholder="Email">
+
+                <label for="blood-group"> Blood Group </label>
+                <select name="blood-group" id="blood-group" required>
+                    <option value="" disabled selected>Select your blood group</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" autocomplete="state" required placeholder="State">
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" autocomplete="city" required placeholder="City">
+
+                <label for="quantity">Quantity in milliliter:</label>
+                <input type="text" id="quantity" name="quantity" autocomplete="quantity" required placeholder="quantity">
+
+
+
+                <button id="next" type="submit">Next</button>
+            </form>
+        </div>
+    </div>
+    <div class="configuration">
+        <h2 class="title">Confirmation</h2>
+        <form action="">
+            <div class="form-content">
+                <div class="left">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" autocomplete="password" required
+                        placeholder="Password">
+                </div>
+                <div class="right">
+                    <label for="cpassword">Confirm Password</label>
+                    <input type="cpassword" id="cpassword" name="cpassword" autocomplete="password" required
+                        placeholder="Confirm Password">
+                </div>
+
+            </div>
+            <button type="submit">Request</button>
+        </form>
+    </div>
+
+     <!-- Footer section -->
+  <footer>
+    <div class="data">
+      <div class="slogan">
+        <span>“Blood Donation Costs You Nothing,</span> But It Can Mean The
+        World To Someone In Need.”
+      </div>
+      <div class="row">
+        <div class="left">
+          <h2><span>HELP SAVE A LIFE</span></h2>
+          <h2>GIVE THE GIFT OF BLOOD</h2>
+
+          <div class="empty-space"><br /><br /></div>
+        </div>
+        <div class="right">
+          <img src="../images/blood.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="details">
+      <div class="left">
+        <br>
+        <p>
+          <p> BCA Project: Blood Bank Management System </p>
+          <p>Team Member Name</p>
+          <li>1.  Vishal</li>
+          <li>2.  Gautam</li>
+          <li>3.  Khushi</li>
+          BloodBuddy is a blood donation site. It is made with the vision to help people in need. To help the patient’s family in finding the blood.
+        </p>
+      </div>
+      <div class="middle">
+        <h2>Quick Links</h2>
+        <a href="about.html">About</a>
+        <a href="donate.html">Donate</a>
+        <a href="request.html">Request</a>
+      </div>
+
+      <div class="right">
+        <h2>Quick Links</h2>
+
+        <div class="phone">
+          <i class="fa-solid fa-phone"></i> &nbsp; <a href="tel: 08192-123456"> 08192-123456</a>
+        </div>
+        <div class="email">
+          <i class="fa-solid fa-envelope"></i> &nbsp; <a href="mailto:gautamrajput608@gmail.com">contact </a>
+        </div>
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i> &nbsp;<a href="https://goo.gl/maps/pZhPUS9JcXmoAa9i8" target="_blank" rel="noopener noreferrer"> Noide, Uttar Pradesh, India </a>
+        </div>
+      </div>
+    </div>
+    <hr style="width: 90%; margin: 10px" />
+    <div class="copyright" style="margin: 30px">
+         <!-- Add font awesome icons -->
+        <div >
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </div>
+      <p>All Rights Reserved © 2025 | BCA Project | All rights reserved</p>
+    </div>
+  </footer>
+
+    
+
+    <script>
+        var nextButton = document.getElementById('next');
+        var detailsForm = document.querySelector('#request-details');
+        var configurationDiv = document.querySelector('.configuration');
+        detailsForm.addEventListener('submit', displayForm);
+
+        function displayForm(e) {
+            e.preventDefault();
+            configurationDiv.style.visibility = 'visible';
+        }
+
+    </script>
+
+</body>
+
+</html>
