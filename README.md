@@ -1,4 +1,4 @@
-# BloodBankManagementSystem.com
+# BloodBank
     IIHS College Project
     Blood Bank Management System
 
@@ -16,7 +16,7 @@ Introduction: The Blood Bank Management System (BBMS) is a software solution des
 **Project Title:**
 Blood Bank Management System
 
-**Live Link:** https://blookbanksystem32.netlify.app/
+**Live Link:** 
 
 **Tech Stack used**: HTML5, CSS3, JavaScript
 
