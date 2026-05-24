@@ -2,7 +2,7 @@
     IIHS College Project
     Blood Bank Management System
 
-BCA Project: Blood Bank Management System
+BCA Project: Blood Bank
 
 Team Members:
 
